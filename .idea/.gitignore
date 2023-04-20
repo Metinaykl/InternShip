@@ -2,3 +2,4 @@
 /shelf/
 /workspace.xml
 /vcs.xml
+/target/test-classes/StepDefinitions/AddEditDeleteDocumentTypesSteps.class
