@@ -58,6 +58,7 @@ public class AddEditDeleteParameters {
     public void deleteNewField() {
         dc.waitUntilClickable(dc.deleteImgButton);
         js.executeScript("arguments[0].click();", dc.deleteImgButton);
+        dc.waitUntilClickable(dc.deleteButton);
 js.executeScript("arguments[0].click();", dc.deleteButton) ;
     }
 }
