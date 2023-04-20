@@ -17,14 +17,14 @@ public class AddEditDeleteDocumentTypesSteps {
 
     @When("Navigate to Document Types")
     public void navigateToDocumentTypes() {
-       // pr.fuseProgressBar();
+        // pr.fuseProgressBar();
         ln.clickFunction(ln.Setup);
         ln.clickFunction(ln.Parameters);
         ln.clickFunction(ln.DocumentTypes);
     }
 
-    @And("Creat a Documnet Types")
-    public void creatADocumnetTypes() {
+    @And("Create a Document Types")
+    public void createADocumentTypes() {
         pr.fuseProgressBar();
         dc.clickFunction(dc.addImgButton);
         dc.sendKeysFunction(dc.nameInput, "ITU-Techno");
@@ -62,7 +62,6 @@ public class AddEditDeleteDocumentTypesSteps {
         dc.clickFunction(dc.deleteImgButton);
         dc.clickFunction(dc.deleteButton);
     }
-
 
 
 }

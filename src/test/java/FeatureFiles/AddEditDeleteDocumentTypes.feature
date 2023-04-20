@@ -7,7 +7,7 @@ Feature: Document Types Functionality
 
   Scenario: Add Document Types
     When Navigate to Document Types
-    And Creat a Documnet Types
+    And Create a Document Types
     Then Success message should be displayed
 
 
